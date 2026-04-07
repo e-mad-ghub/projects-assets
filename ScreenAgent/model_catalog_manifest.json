@@ -79,9 +79,11 @@
     {
       "id": "gemma-3-4b-it-gguf",
       "displayName": "Gemma 3 4B IT",
-      "description": "Larger public GGUF model with better local text quality on stronger phones.",
+      "description": "Larger public GGUF model with image support on stronger phones.",
       "downloadUrl": "https://huggingface.co/ggml-org/gemma-3-4b-it-GGUF/resolve/main/gemma-3-4b-it-Q4_K_M.gguf",
       "fileName": "gemma-3-4b-it-Q4_K_M.gguf",
+      "visionProjectorDownloadUrl": "https://huggingface.co/ggml-org/gemma-3-4b-it-GGUF/resolve/main/mmproj-model-f16.gguf",
+      "visionProjectorFileName": "mmproj-model-f16.gguf",
       "capabilityKey": "LOCAL_VISION",
       "supportsDocuments": true,
       "estimatedSizeMb": 3115,
@@ -93,3 +95,4 @@
     }
   ]
 }
+
